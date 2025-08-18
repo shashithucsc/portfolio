@@ -974,6 +974,29 @@ section h2 {
   transform: translateX(3px) scale(1.1);
 }
 
+/* GitHub Button Variant */
+.github-btn {
+  background: linear-gradient(135deg, #24292e, #586069, #f6f8fa) !important;
+  color: #ffffff !important;
+  border: 2px solid rgba(36, 41, 46, 0.8) !important;
+  box-shadow: 0 6px 20px rgba(36, 41, 46, 0.4), 
+              0 0 25px rgba(36, 41, 46, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+}
+
+.github-btn::before {
+  background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(36, 41, 46, 0.1)) !important;
+}
+
+.github-btn:hover {
+  background: linear-gradient(135deg, #f6f8fa, #24292e, #586069) !important;
+  border-color: rgba(36, 41, 46, 1) !important;
+  box-shadow: 0 8px 30px rgba(36, 41, 46, 0.6), 
+              0 0 40px rgba(36, 41, 46, 0.3),
+              inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
+  color: #24292e !important;
+}
+
 /* Mobile responsiveness for project buttons */
 @media (max-width: 768px) {
   .project-buttons {
